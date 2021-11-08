@@ -1,0 +1,60 @@
+body {
+    background-color: #222351;
+    color: burlywood;
+}
+
+#content {
+    font-family: Rockwell;
+    text-align: center;
+}
+
+#controls {
+    height: 70px;
+    border-bottom: 5px dashed crimson;
+}
+
+#background {
+    height: calc(100vh - 150px);
+    background-position: center;
+    background-size: cover;
+    background-image: url(./treasure\ hunt\ graphics.png);
+}
+
+
+/**
+FROM: https://getcssscan.com/css-buttons-examples
+*/
+
+.button-37 {
+  background-color: burlywood;
+  border: 1px solid burlywood;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  font-family: Franklin Gothic Medium;
+  font-size: 20px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-37:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-37 {
+    padding: 10px 30px;
+  }
+}
+
